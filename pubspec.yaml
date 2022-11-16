@@ -1,6 +1,6 @@
-name: flashcard
-description: A new Flutter package project.
-version: 0.0.1
+name: flashcardplus
+description: Support for creating Flash Cards - a learning method that makes it easier for users to remember information.
+version: 0.0.2
 homepage: https://github.com/muhammadtalhasultan
 repository: https://github.com/muhammadtalhasultan/flashcard/
 

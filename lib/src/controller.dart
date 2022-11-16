@@ -5,9 +5,9 @@ import 'swipe_info.dart';
 
 /// Card controller
 class FlashCardController {
-  FlashCardState? state;
+  FlashCardPlusState? state;
 
-  void bindState(FlashCardState state) {
+  void bindState(FlashCardPlusState state) {
     this.state = state;
   }
 

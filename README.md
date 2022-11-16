@@ -1,4 +1,4 @@
-# FlashCard
+# FlashCardPlus
 
 
 [![GitHub stars](https://img.shields.io/github/stars/muhammadtalhasultan/flashcard)](https://github.com/xmuhammadtalhasultan/flashcard/stargazers) [![pub package](https://img.shields.io/pub/v/flashcard.svg)](https://pub.dev/packages/flashcard)
@@ -20,7 +20,7 @@
 ```yaml
 # pubspec.yaml
 dependencies:
-  flashcard: ^0.0.1
+  flashcardplus: ^0.0.1
 ```
 
 ## Usage
@@ -41,7 +41,7 @@ List<Widget> cards = List.generate(
   ),
 );
 
-FlashCard(
+FlashCardPlus(
   cards: cards,
 )
 ```
@@ -84,7 +84,7 @@ List<Widget> cards = List.generate(
   },
 );
 
-FlashCard(
+FlashCardPlus(
   size: Size(400, 600),
   cards: cards,
 );
@@ -110,7 +110,7 @@ class _MyAppState extends State<MyApp> {
         body: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            FlashCard(
+            FlashCardPlus(
               cards: cards,
               leftIcon: ElevatedButton( // the left icon on the card
                 style: ElevatedButton.styleFrom(
@@ -196,7 +196,7 @@ class _MyAppState extends State<MyApp> {
 ### Determine the sliding direction
 
 ```dart
- FlashCard(
+ FlashCardPlus(
   cards: cards,
   size: Size(360, 480),
   controller: _controller,
@@ -225,7 +225,7 @@ class _MyAppState extends State<MyApp> {
 ```dart
 List<Widget> newCards = [];
 
-FlashCardController _controller = FlashCardController();
+FlashCardPlusController _controller = FlashCardPlusController();
 
 _controller.reset(cards: newCards);
 ```

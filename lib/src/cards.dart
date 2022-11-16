@@ -11,7 +11,7 @@ typedef BackCallback = Function(int index, SwipeInfo info);
 typedef EndCallback = Function();
 
 /// card
-class FlashCard extends StatefulWidget {
+class FlashCardPlus extends StatefulWidget {
   /// card size
   final Size size;
 
@@ -51,7 +51,7 @@ class FlashCard extends StatefulWidget {
   /// How long does it have to wait until the next slide is sliable? less is quicker. 100 is fast enough. 500 is a bit slow.
   final int delaySlideFor;
 
-  const FlashCard({
+  const FlashCardPlus({
     super.key,
     required this.cards,
     this.leftIcon,
@@ -70,10 +70,11 @@ class FlashCard extends StatefulWidget {
   }) : assert(cards.length > 0);
 
   @override
-  FlashCardState createState() => FlashCardState();
+  FlashCardPlusState createState() => FlashCardPlusState();
 }
 
-class FlashCardState extends State<FlashCard> with TickerProviderStateMixin {
+class FlashCardPlusState extends State<FlashCardPlus>
+    with TickerProviderStateMixin {
   //  initial card list
   final List<Widget> _cards = [];
   // Card swipe directions

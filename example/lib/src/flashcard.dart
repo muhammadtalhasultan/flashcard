@@ -1,7 +1,7 @@
 // ignore_for_file: depend_on_referenced_packages, unused_field
 
 import 'package:flutter/material.dart';
-import 'package:flashcard/flashcard.dart';
+import 'package:flashcardplus/flashcardplus.dart';
 
 List<Color> colors = [
   Colors.blue,
@@ -51,7 +51,7 @@ class _FlashCardPageState extends State<FlashCardPage> {
         child: Column(
           children: <Widget>[
             const SizedBox(height: 200),
-            FlashCard(
+            FlashCardPlus(
               cards: cards,
               controller: _controller,
               onForward: (index, info) {

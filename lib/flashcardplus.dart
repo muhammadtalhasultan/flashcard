@@ -1,4 +1,4 @@
-library flashcard;
+library flashcardplus;
 
 export 'src/cards.dart';
 export 'src/swipe_info.dart';
