@@ -1,7 +1,7 @@
 # FlashCardPlus
 
 
-[![GitHub stars](https://img.shields.io/github/stars/muhammadtalhasultan/flashcard)](https://github.com/xmuhammadtalhasultan/flashcard/stargazers) [![pub package](https://img.shields.io/pub/v/flashcard.svg)](https://pub.dev/packages/flashcard)
+[![GitHub stars](https://img.shields.io/github/stars/muhammadtalhasultan/flashcard)](https://github.com/xmuhammadtalhasultan/flashcard/stargazers) [![pub package](https://img.shields.io/pub/v/flashcard.svg)](https://pub.dev/packages/flashcardplus)
 
 - [FlashCard](#flashcard)
   - [Install](#install)
